@@ -28,7 +28,7 @@ export default function Home() {
   const fileInputRef = useRef<HTMLInputElement | null>(null);
   const timeouts = useRef<NodeJS.Timeout[]>([]);
 
-  const BACKEND_URL = "http://127.0.0.1:8000";
+  const BACKEND_URL = "https://fitstack-lot0.onrender.com";
 
   // Warm backend on first load
   useEffect(() => {
